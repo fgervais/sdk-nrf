@@ -3,7 +3,7 @@
 ## Build
 
 ```bash
-docker compose run --rm nrf west build -b nrf52840dongle_nrf52840 -- -DOVERLAY_CONFIG="overlay-usb.conf" -DDTC_OVERLAY_FILE="usb.overlay"
+docker compose run --rm nrf west build -b bitcraze_crazyradio_2 -- -DOVERLAY_CONFIG="overlay-usb.conf" -DDTC_OVERLAY_FILE="usb.overlay"
 ```
 
 ## Read UICR
